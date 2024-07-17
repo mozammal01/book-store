@@ -56,7 +56,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         {
-          user ? <button onClick={handleLogOut} className="btn btn-outline text-orange border-2 font-bold transition ease-in-out delay-150 duration-300 hover:scale-110 hover:text-white hover:border-orange hover:bg-orange">LogOut</button> :
+          user ? <button onClick={handleLogOut} className="btn bg-orange text-white border-2 border-orange font-bold transition ease-in-out delay-150 duration-300 hover:scale-110 hover:text-orange hover:border-orange hover:bg-white">LogOut</button> :
             <Link to='/login' className="btn btn-outline text-orange border-2 font-bold transition ease-in-out delay-150 duration-300 hover:scale-110 hover:text-white hover:border-orange hover:bg-orange">Login</Link>
         }
       </div>
